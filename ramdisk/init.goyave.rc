@@ -1,0 +1,2 @@
+import /init.goyave_base.rc
+import /init.wifi.rc
