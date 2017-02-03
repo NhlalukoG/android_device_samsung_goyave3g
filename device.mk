@@ -20,8 +20,8 @@ $(call inherit-product-if-exists, vendor/samsung/goyave3g/goyave3g-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # This device is sw600dp
-PRODUCT_AAPT_CONFIG := normal sw600dp mdpi
-PRODUCT_AAPT_PREF_CONFIG := sw600dp
+PRODUCT_AAPT_CONFIG := normal mdpi #sw600dp
+PRODUCT_AAPT_PREF_CONFIG := mdpi #sw600dp
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1024
