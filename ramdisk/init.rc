@@ -305,6 +305,9 @@ on post-fs-data
     # symlink to bugreport storage location
     symlink /data/data/com.android.shell/files/bugreports /data/bugreports
 
+    # Symlink default internal storage to cyanogenmod prefered
+    symlink /data/media /storage/emulated
+
     # Separate location for storing security policy files on data
     mkdir /data/security 0711 system system
 
