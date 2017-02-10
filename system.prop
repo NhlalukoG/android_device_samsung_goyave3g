@@ -78,8 +78,8 @@ sys.config.samp_hotness_enable=false
 
 # RIL
 ro.com.android.dataroaming=false
-ro.msms.phone_count=2
-persist.msms.phone_count=2
+ro.msms.phone_count=1
+persist.msms.phone_count=1
 persist.msms.phone_default=0
 persist.msmslt=0
 ro.modem.w.count=1
@@ -87,6 +87,4 @@ persist.sys.modem.diag=,gser
 sys.usb.gser.count=4
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10
-ril.sim2.present=1
-persist.radio.multisim.config=dsds
 ro.telephony.ril_class=SamsungSPRDRIL
